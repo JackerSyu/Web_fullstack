@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <div>
+            <label for="first_name">First Name: </label>
+            <input type="text" placeholder="ex: John" required>
+    
+            <label for="last_name">Last Name: </label>
+            <input type="text" placeholder="ex: Smith" required>
+        </div>
+
+        <div>
+            <label for="male">Male </label>
+            <input type="radio" name="gender" id="male" value="MALE">
+    
+            <label for="female">Femal</label>
+            <input type="radio" name="gender" id="female" value="FEMALE">
+            
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="OTHER">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="abc123@gmail.com" required>
+    
+            <label for="password">Password: </label>
+            <!-- you can also use maxlength="10" minlength="5" to valid the length -->
+            <input type="password" id="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+        </div>
+
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday"><br>
+        </div>
+
+        <div>
+            <label for="agree">I agree to the terms and conditions</label>
+            <input type="checkbox" name="" id="agree" required>
+        </div>
+
+        <input type="submit" name="" id="submit" value="Submit" >
+    </form>
+</body>
+</html>

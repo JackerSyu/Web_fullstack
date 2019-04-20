@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin:auto;
+    /* border: 1px solid blue; */
+}
+table {
+    /* border: 1px solid; */
+    margin: 20px auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.num-2-8 {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.num-5 {
+    border: 1px solid;
+}
+
+.num-4-6 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
