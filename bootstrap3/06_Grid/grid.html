@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <style type="text/css">
+    .pink {
+      background: pink;
+      border: 2px solid purple;
+      height: 50px;
+    }
+    .orange {
+      background: orange;
+      border: 2px dashed red;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- =====================================-->
+<!--             OBJECTIVES               -->
+<!-- 1. Understand Purpose of Grid System -->
+<!-- 2. Understand the 4 different sizes  -->
+<!-- 3. Write Nested Grids                -->
+<!-- ==================================== -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 pink">test</div>
+      <div class="col-md-3 col-sm-6 pink">test</div>
+      <div class="col-md-3 col-sm-6 pink">test</div>
+      <div class="col-md-3 col-sm-6 pink">test</div>
+    </div>
+    <div class="row" >
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-6 pink">test</div>
+          <div class="col-md-6 pink">test</div>
+        </div>
+      </div>
+      <div class="col-md-4 orange">test</div>
+      <div class="col-md-4 orange">test</div>
+    </div>
+  </div>
+</body>
+</html>
+
